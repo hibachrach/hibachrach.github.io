@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Please stop yelling online</title>
+    <description>Comics featuring people like shapes with text by Harrison Bachrach.
+</description>
+    <link>harrisonbachrach.com/psyo/</link>
+    <atom:link href="harrisonbachrach.com/psyo/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 29 May 2016 22:22:23 -0700</pubDate>
+    <lastBuildDate>Sun, 29 May 2016 22:22:23 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>panel</title>
+        <description>&lt;p&gt;&lt;a href=&quot;comic_images/003_panel.png&quot;&gt;&lt;img src=&quot;comic_images/003_panel.png&quot; alt=&quot;panel&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 28 May 2016 16:25:13 -0700</pubDate>
+        <link>harrisonbachrach.com/psyo/panel.html</link>
+        <guid isPermaLink="true">harrisonbachrach.com/psyo/panel.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>hotline</title>
+        <description>&lt;p&gt;&lt;a href=&quot;comic_images/002_hotline.png&quot;&gt;&lt;img src=&quot;comic_images/002_hotline.png&quot; alt=&quot;hotline&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 28 May 2016 16:25:13 -0700</pubDate>
+        <link>harrisonbachrach.com/psyo/hotline.html</link>
+        <guid isPermaLink="true">harrisonbachrach.com/psyo/hotline.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>mailman</title>
+        <description>&lt;p&gt;&lt;a href=&quot;comic_images/001_mailman.png&quot;&gt;&lt;img src=&quot;comic_images/001_mailman.png&quot; alt=&quot;mailman&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 27 May 2016 16:25:13 -0700</pubDate>
+        <link>harrisonbachrach.com/psyo/mailman.html</link>
+        <guid isPermaLink="true">harrisonbachrach.com/psyo/mailman.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
