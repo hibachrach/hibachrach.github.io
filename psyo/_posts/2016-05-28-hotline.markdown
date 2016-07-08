@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "hotline"
+date:   2016-05-28 16:25:13 -0700
+number: 2
+---
+
+[![hotline](comic_images/002_hotline.png)](comic_images/002_hotline.png)
+

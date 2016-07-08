@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "mailman"
+date:   2016-05-27 16:25:13 -0700
+number: 1
+filename: "001_mailman.png"
+---
+
+[![mailman](comic_images/001_mailman.png)](comic_images/001_mailman.png)
+

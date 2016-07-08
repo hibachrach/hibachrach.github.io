@@ -1,0 +1,14 @@
+---
+layout: post
+custom_css: preview_image
+title:  "trapped"
+date:   2016-07-03 20:33:00 -0600
+number: 10
+---
+
+[![trapped](comic_images/010_trapped_preview.png)](trapped.html){: .preview_image}
+
+
+
+[![trapped](comic_images/010_trapped.png)](comic_images/010_trapped.png){: .large_image }
+

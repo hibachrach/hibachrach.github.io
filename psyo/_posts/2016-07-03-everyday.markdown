@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "everyday"
+date:   2016-07-03 20:33:00 -0600
+number: 9
+---
+
+[![everyday](comic_images/009_everyday.png)](comic_images/009_everyday.png)
+
