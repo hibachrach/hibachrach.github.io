@@ -1,9 +1,0 @@
----
-layout: post
-title:  "music"
-date:   2016-06-29 20:38:00 -0600
-number: 8
----
-
-[![music](comic_images/008_music.png)](comic_images/008_music.png)
-

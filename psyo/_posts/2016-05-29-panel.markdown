@@ -1,9 +1,0 @@
----
-layout: post
-title:  "panel"
-date:   2016-05-28 16:25:13 -0700
-number: 3
----
-
-[![panel](comic_images/003_panel.png)](comic_images/003_panel.png)
-

@@ -1,9 +1,0 @@
----
-layout: post
-title:  "door"
-date:   2016-06-20 22:16:00 -0600
-number: 6
----
-
-[![door](comic_images/006_door.png)](comic_images/006_door.png)
-
