@@ -6,9 +6,21 @@
 </description>
     <link>harrisonbachrach.com/psyo/</link>
     <atom:link href="harrisonbachrach.com/psyo/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jul 2016 00:26:25 -0600</pubDate>
-    <lastBuildDate>Wed, 20 Jul 2016 00:26:25 -0600</lastBuildDate>
+    <pubDate>Tue, 26 Jul 2016 23:35:03 -0600</pubDate>
+    <lastBuildDate>Tue, 26 Jul 2016 23:35:03 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>fog</title>
+        <description>&lt;p&gt;&lt;a href=&quot;comic_images/012_fog.png&quot;&gt;&lt;img src=&quot;comic_images/012_fog.png&quot; alt=&quot;fog&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 27 Jul 2016 00:34:13 -0600</pubDate>
+        <link>harrisonbachrach.com/psyo/fog.html</link>
+        <guid isPermaLink="true">harrisonbachrach.com/psyo/fog.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>painting</title>
@@ -116,18 +128,6 @@
         <pubDate>Sat, 28 May 2016 17:25:13 -0600</pubDate>
         <link>harrisonbachrach.com/psyo/panel.html</link>
         <guid isPermaLink="true">harrisonbachrach.com/psyo/panel.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>hotline</title>
-        <description>&lt;p&gt;&lt;a href=&quot;comic_images/002_hotline.png&quot;&gt;&lt;img src=&quot;comic_images/002_hotline.png&quot; alt=&quot;hotline&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 28 May 2016 17:25:13 -0600</pubDate>
-        <link>harrisonbachrach.com/psyo/hotline.html</link>
-        <guid isPermaLink="true">harrisonbachrach.com/psyo/hotline.html</guid>
         
         
       </item>
