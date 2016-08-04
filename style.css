@@ -57,6 +57,14 @@ a {
 footer {
   margin-bottom: 1.1em; }
 
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: black;
+  fill: white; }
+
 @media only screen and (min-width: 768px) {
   footer {
     text-align: center;
