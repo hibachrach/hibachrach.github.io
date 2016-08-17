@@ -1,4 +1,4 @@
-var origin = view.center + new Point(0, -100);
+var origin = view.center;// + new Point(0, -100);
 var reachedEndState = false;
 var flowerStore = [];
 var petals = [];
@@ -6,6 +6,7 @@ var shareSetUp = false;
 var instructions = document.getElementById("instructions");
 var message = document.getElementById("message");
 var resetLink = document.getElementById("reset");
+var url = document.getElementById("plainTextURL");
 if (window.location.hash) {
 	reachedEndState = true;
 	flowerStore = JSON.parse(decodeURIComponent(window.location.hash.substring(1)));
@@ -15,7 +16,6 @@ if (window.location.hash) {
 		instructions.style.display = "none";
 	});
 	resetLink.innerHTML = "Make your own";
-	resetLink.style.width 
 } else {
 	message.style.display = "none";
 	instructions.style.display = "block";
@@ -30,6 +30,8 @@ function setUpShare() {
 	var button = document.getElementById("btn");
 	button.style.display = "block";
 	button.setAttribute("data-clipboard-text", window.location.href);
+	url.style.display = "inline-block";
+	url.innerHTML = window.location.href;
 }
 function drawFlower(r, n, c, w) {
 	var p = new Point(r, 0);
@@ -84,7 +86,8 @@ var originalRadius = circ.radius;
 var orignalDash = circ.dashArray.slice()
 var rising = true;
 var maxRadius = 300;
-var minRadius = 60;
+var minRadius = 100;
+var originalMinRadius = minRadius;
 var count = 5;
 var i = 0;
 function onFrame(event) {
@@ -124,7 +127,7 @@ function onMouseDown(event) {
 }
 function onResize(event) {
 	// Whenever the window is resized, recenter the path:
-	origin = view.center + new Point(0, -100);
+	origin = view.center;// + new Point(0, -100);
 	if (circ !==  undefined)
 		circ.position = origin;
 	petals.forEach(function(p) {
