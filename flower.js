@@ -32,10 +32,10 @@ function setUpShare() {
 	button.setAttribute("data-clipboard-text", window.location.href);
 	url.style.display = "inline-block";
 	url.innerHTML = window.location.href;
-	url.onclick = function() {
-		this.selectionStart = 0;
-		this.selectionEnd = this.value.length;
-	};
+	// url.onclick = function() {
+	// 	this.selectionStart = 0;
+	// 	this.selectionEnd = this.value.length;
+	// };
 }
 function drawFlower(r, n, c, w) {
 	var p = new Point(r, 0);
@@ -74,7 +74,7 @@ function drawFlower(r, n, c, w) {
 		petalGroup.addChild(drawPetal(p));
 		p.angle += 360 / n;
 	}
-	var cShadow = c.clone();
+	var cShadow = new Color(c);
 	cShadow.alpha = .4;
 	cShadow.brightness -= .1;
 	petalGroup.style = {
