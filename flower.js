@@ -32,16 +32,19 @@ function setUpShare() {
 	button.setAttribute("data-clipboard-text", window.location.href);
 	url.style.display = "inline-block";
 	url.innerHTML = window.location.href;
-	url.onclick(function() {
-		fnSelect("plainTextURL");
-	});
+	url.onclick = function() {
+		this.selectionStart = 0;
+		this.selectionEnd = this.value.length;
+	};
 }
 function drawFlower(r, n, c, w) {
 	var p = new Point(r, 0);
+	// so the top petal is always on the upper half of the screen
+	p.angle -= Math.random() * 180 - 360/n; 
 	if  (c === undefined)  {
 		c = new Color({
 			hue: Math.random() * 360,
-			saturation: .3,
+			saturation: .4,
 			brightness: .9 
 		});
 	}
@@ -64,11 +67,21 @@ function drawFlower(r, n, c, w) {
 		path.closed = true;
 		path.smooth();
 		petals.push(path);
+		return path;
 	}
+	var petalGroup = new Group();
 	for (var i = 0; i < n; i++) {
-		drawPetal(p);
+		petalGroup.addChild(drawPetal(p));
 		p.angle += 360 / n;
 	}
+	var cShadow = c.clone();
+	cShadow.alpha = .4;
+	cShadow.brightness -= .1;
+	petalGroup.style = {
+		// shadowColor: new Color(0, 0, 0, .1),
+		shadowColor: cShadow,
+		shadowBlur: 25
+	};
 	if (!reachedEndState) {
 		flowerStore.push([r, n, c.toCSS(true), w]);
 	}
@@ -89,7 +102,7 @@ var originalRadius = circ.radius;
 var orignalDash = circ.dashArray.slice()
 var rising = true;
 var maxRadius = 300;
-var minRadius = 100;
+var minRadius = circ.radius;
 var originalMinRadius = minRadius;
 var count = 5;
 var i = 0;
