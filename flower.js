@@ -32,6 +32,9 @@ function setUpShare() {
 	button.setAttribute("data-clipboard-text", window.location.href);
 	url.style.display = "inline-block";
 	url.innerHTML = window.location.href;
+	url.onclick(function() {
+		fnSelect("plainTextURL");
+	});
 }
 function drawFlower(r, n, c, w) {
 	var p = new Point(r, 0);

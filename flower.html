@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- CSS necessary for code to work as expected -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 		<!-- CSS necessary for code to work as expected -->
 		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" type="text/css" rel="stylesheet">
 		<style type="text/css">
 			* {
@@ -47,7 +48,7 @@
 			#plainTextURL {
 				display: none;
 				font-family: Courier, serif;
-				font-size: 8pt;	
+				font-size: 7pt;	
 				top: 15%;
 				width: 80%;
 				word-break: break-all;
@@ -78,8 +79,21 @@
 			@media (min-width:320px) and (max-width:800px) and
 			(-webkit-device-pixel-ratio: 2) {
 				p, a, #btn {
-					font-size: 2em;
+					font-size: 1em;
 				}
+				#btn {
+					top: 3%;
+					width: 16em;
+				}
+				#plainTextURL {
+					top: 12%;
+					width: 90%;
+				}
+				.topText {
+					bottom: 11%;
+					width: 15em;
+				}
+
 			}
 		</style>
 		<script type="text/javascript" src="bower_components/paper/dist/paper-full.min.js"></script>
