@@ -7,8 +7,8 @@ easier upkeep of HTML and stylesheets.
 Some fun things that might interest you:
 
 * [`flower`](https://github.com/HarrisonB/flower) |
-  [Demo](harrisonbachrach.com/flower):
+  [Demo](http://harrisonbachrach.com/flower):
   Make flowers for friends
 * [`favorite_color`](https://github.com/HarrisonB/favorite_color)
-  | [Demo](harrisonbachrach.com/favorite_color):
+  | [Demo](http://harrisonbachrach.com/favorite_color):
   Partake in a fun and interesting poll
