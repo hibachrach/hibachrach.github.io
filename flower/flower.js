@@ -9,7 +9,14 @@ var resetLink = document.getElementById("reset");
 var url = document.getElementById("plainTextURL");
 if (window.location.hash) {
 	reachedEndState = true;
-	flowerStore = JSON.parse(decodeURIComponent(window.location.hash.substring(1)));
+	var encodedData = window.location.hash.substring(1);
+	try {
+		// Try to decode base64
+		flowerStore = JSON.parse(atob(encodedData));
+	} catch (e) {
+		// or use method for older encoding
+		flowerStore = JSON.parse(decodeURIComponent(encodedData));
+	}
 	flowerStore.forEach(function(a) {
 		drawFlower.apply(undefined, a);
 		message.style.display = "block";
@@ -21,21 +28,14 @@ if (window.location.hash) {
 	instructions.style.display = "block";
 }
 function setUpShare() {
-	window.location.hash = "#" + encodeURIComponent(JSON.stringify(flowerStore));
-	// shareText = new PointText(new Point(0, 400) + origin);
-	// shareText.justification = 'center';
-	// shareText.fillColor = 'black';
-	// shareText.content = "Share your flower:\n " + window.location;
 	shareSetUp = true;
 	var button = document.getElementById("btn");
 	button.style.display = "block";
-	button.setAttribute("data-clipboard-text", window.location.href);
+	var encodedData = btoa(JSON.stringify(flowerStore));
+	var shareURL = window.location.href.split('#')[0] + '#' + encodedData;
+	button.setAttribute("data-clipboard-text", shareURL);
 	url.style.display = "inline-block";
-	url.innerHTML = window.location.href;
-	// url.onclick = function() {
-	// 	this.selectionStart = 0;
-	// 	this.selectionEnd = this.value.length;
-	// };
+	url.innerHTML = shareURL;
 }
 function drawFlower(r, n, c, w) {
 	var p = new Point(r, 0);
@@ -44,12 +44,12 @@ function drawFlower(r, n, c, w) {
 	if  (c === undefined)  {
 		c = new Color({
 			hue: Math.random() * 360,
-			saturation: .4,
-			brightness: .9 
+			saturation: 0.4,
+			brightness: 0.9 
 		});
 	}
 	if (w === undefined) {
-		var w = Math.random();
+		w = Math.random();
 	}
 	function drawPetal(tip) {
 		var path = new Path();
@@ -99,7 +99,7 @@ var circ = new Shape.Circle({
 	name: 'circ'
 });
 var originalRadius = circ.radius;
-var orignalDash = circ.dashArray.slice()
+var orignalDash = circ.dashArray.slice();
 var rising = true;
 var maxRadius = 300;
 var minRadius = circ.radius;
@@ -133,7 +133,7 @@ function onMouseDown(event) {
 		maxRadius = circ.radius;
 		circ.radius = originalRadius;
 		rising = true;
-		project.activeLayer.children['circ'].bringToFront();
+		project.activeLayer.children.circ.bringToFront();
 		i++;
 	}
 	if (i >= count && !shareSetUp) {

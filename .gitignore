@@ -1,3 +1,5 @@
 *.css.map
 *.psd
 .sass-cache/*
+*.log
+README.html
