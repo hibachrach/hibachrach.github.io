@@ -11,5 +11,5 @@ window.onload = function() {
 			$("#vertList").transition({y: "0"});
 			i = 0;
 		}
-	}, 5000);
+	}, 4000);
 };
