@@ -48,6 +48,7 @@ h2 {
 	margin-bottom: 1em;
 }
 #tagline {
+	font-size: 26px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -68,7 +69,7 @@ h2 {
 	#vertList{
 		text-align: center;
 		list-style: none;
-		display: inline-block;
+		display: block;
 		-webkit-transition: .5s ease-in-out;
 		transition: .5s ease-in-out;
 		margin-top: -.18em;
