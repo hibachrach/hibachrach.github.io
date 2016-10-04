@@ -4,6 +4,6 @@
 **/.sass-cache/*
 **/*.log
 **/*.swp
-**/*.swo
+**/.*.swo
 README.html
 **/git-ignore.*
