@@ -1,0 +1,143 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		title HB
+		link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png")
+		link(rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32")
+		link(rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16")
+		link(rel="manifest" href="/manifest.json")
+		link(rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5")
+		<meta name="theme-color" content="#ffffff">
+		link(href="https://fonts.googleapis.com/css?family=Oxygen:300|Oswald", rel="stylesheet")
+		link(rel='stylesheet', type='text/css', href='css/style.css')
+		script(src="../bower_components/jquery-3.1.0.min/index.js" type="text/javascript")
+		script(src="../bower_components/jquery.transit.min/index.js" type="text/javascript")
+		script(src="../js/index.js" type="text/javascript")
+	body
+		h1 I'm Harrison Bachrach
+		a(href='http://harrisonbachrach.com/flower').makeFlowerLink Make your own flower!
+	#content
+		h2#tagline
+			p I <img class="heart" src="../images/ic_favorite_black_24px.svg" /> making the web
+			div.box 
+				ul#vertList
+					li engaging
+					li accessible
+					li attractive
+					li friendly
+		.blurb
+			p.statement.
+				That passion extends into nearly everything I do. Whether it's making
+				#[a(href="https://github.com/HarrisonB/math121A") educational notes] freely available online, or creating
+				#[a(href="http://harrisonbachrach.com/DISEF.html") games to bring people together], I spend my time trying
+				to make people's lives better&mdash;in ways both big and small.
+		.blurb(class='reversed_blurb' id='about_me')
+			img(src="../images/me2.jpeg" width=200 height=200).circleImage/
+			.text
+				h2 A little about me
+				ul.alteredBullets
+					li.location Grew up in Westlake Village, CA
+					li.globe Dual US and German citizen (+EU)
+					li.vim Faithful Vim user
+		.blurb#knowledge
+			.text
+				h2 My knowledge so far
+				ul.alteredBullets
+					li.school Attending UC Berkeley (graduating in May 2017)
+					li.leviCevita Studying Engineering Physics
+					li.bullet Experienced with:
+					li
+						ul#languageList
+							li Python
+							li Javascript
+							li Git 
+							li LaTeX
+							li C
+							li C#
+							li HTML5
+							li CSS3
+							li Sass
+							li Pug/Jade
+							li Adobe Photoshop
+							li Adobe Illustrator
+							li NumPy & SciPy
+							li Vim
+							li Unity3D
+							li Matlab
+							li TikZ
+		h2 A few projects
+		section
+			.blurb
+				img(src="../images/flower_circ.png" width=200 height=200).circleImage/
+				.text
+					h3 flower
+					p.
+						Want to show someone that you care? Make them a 
+						#[a(href="http://harrisonbachrach.com/flower") flower]. [#[a(href="http://paperjs.org/") Paper.js]]
+			.blurb(class='reversed_blurb')
+				img(src="../images/disef2.png" width=200 height=200).circleImage/
+				.text
+					h3 DISEF
+					p.
+						When a snake has two heads,	they've got to work together to survive .
+						Play #[a(href="http://harrisonbachrach.com/DISEF.html") DISEF] alone or with a friend and attempt to
+						synchronize hands and minds. [Unity3D, C#]
+			.blurb
+				img(src="../images/notes_circ.png" width=200 height=200).circleImage/
+				.text
+					h3 Math 121A Notes
+					p.
+						After taking "Mathematical Tools for Scientists &amp; Engineers," I
+						decided to compile #[a(href="") a set of notes for the course]. The project has
+						expanded into a condensed guide to Multivariable Calculus, Linear
+						Algebra, Complex Analysis, & Harmonic Analysis—complete with
+						custom diagrams! [LaTeX, TikZ]
+		h2 Previous experience
+		section
+			.blurb
+				img(src="../images/freelance_circ.png" width=200 height=200).circleImage/
+				.text
+					h3 Freelance Designer &amp; Illustrator
+					p.
+						I've been designing logos, T-shirts, posters, and websites for as long
+						as I can remember. Check out #[a(href="https://www.behance.net/HarryB") my complete portfolio].
+			.blurb(class='reversed_blurb')
+				img(src="../images/lanl_circ.png" width=200 height=200).circleImage/
+				.text
+					h3 Los Alamos National Lab
+					p.
+						I spent a summer simulating and analyzing exploding stars, also known
+						as supernovae, exploring the impact of initial angular variation.
+						Simulations were done with smoothed particle hydrodynamics codes. [C,
+						Python, LaTeX]
+			.blurb
+				img(src="../images/cfd_circ.png" width=200 height=200).circleImage/
+				.text
+					h3 CFD Lab @ UC Berkeley
+					p.
+						Using the spectral method, I wrote a Navier-Stokes solver to simulate
+						fluid flow in 3D periodic systems. [Python, LaTeX]
+	footer
+		#social
+			ul
+				a(href="https://www.facebook.com/harrybachrach")
+					li.facebook Facebook
+				a(href="https://twitter.com/HarryB")
+					li.twitter Twitter
+				a(href="mailto:harrison.bachrach+website@gmail.com")
+					li.email Email
+				a(href="https://github.com/HarrisonB/")
+					li.github GitHub
+				a(href="https://www.behance.net/HarryB")
+					li.behance Behance
+		p Copyright &copy; Harrison Bachrach, 2016.
+	// For Google Analytics
+	script.
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-9034200-1', 'auto');
+		  ga('send', 'pageview');

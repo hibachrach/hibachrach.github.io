@@ -1,5 +1,8 @@
-*.css.map
-*.psd
-.sass-cache/*
-*.log
+**/*.css.map
+**/*.psd
+**/*.ai
+**/.sass-cache/*
+**/*.log
+**/*.swp
 README.html
+**/git-ignore.*

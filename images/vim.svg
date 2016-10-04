@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:version="0.47 r22583" sodipodi:docname="vim.svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px"
+	 viewBox="116 116 24 24" enable-background="new 116 116 24 24" xml:space="preserve">
+<defs>
+	
+	
+		<inkscape:perspective  sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" id="perspective10" inkscape:persp3d-origin="372.04724 : 350.78739 : 1">
+		</inkscape:perspective>
+	
+		<inkscape:perspective  sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 0.5 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="1 : 0.5 : 1" id="perspective2884" inkscape:persp3d-origin="0.5 : 0.33333333 : 1">
+		</inkscape:perspective>
+</defs>
+<sodipodi:namedview  pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:zoom="0.7" inkscape:cx="107.83967" inkscape:cy="146.01885" showgrid="false" id="base" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:document-units="px" inkscape:current-layer="layer1" inkscape:window-width="743" inkscape:window-height="605" inkscape:window-x="88" inkscape:window-y="321" inkscape:window-maximized="0">
+	</sodipodi:namedview>
+<g>
+	<polygon points="127.383,119.279 127.383,119.507 127.383,120.839 127.383,121.08 127.215,121.252 126.723,121.759 
+		126.548,121.939 126.297,121.939 126.279,121.939 126.247,124.998 129.8,121.567 129.47,121.143 129.345,120.982 129.345,120.778 
+		129.345,119.446 129.345,119.259 129.403,119.176 128.03,117.796 128.03,117.796 126.993,118.846 127.23,119.11 	"/>
+	<polygon points="127.97,138.203 138.144,127.969 134.777,124.582 124.645,134.878 	"/>
+	<polygon points="117.857,128.091 119.468,129.701 119.464,126.464 	"/>
+	<polygon points="130.362,118.841 129.938,119.446 129.938,120.778 130.362,121.323 130.907,121.323 125.639,126.41 
+		125.692,121.346 126.297,121.346 126.79,120.839 126.79,119.507 126.244,118.901 119.401,118.78 118.978,119.204 118.978,120.839 
+		119.439,121.286 120.052,121.301 120.067,135.555 120.673,136.16 122.55,136.16 137.568,120.899 137.568,119.325 137.145,118.901 	
+		"/>
+	<path stroke="#FFFFFF" stroke-miterlimit="40" d="M126.79,120.839l-0.492,0.507h-0.605l-0.053,5.064l5.269-5.087h-0.545
+		l-0.424-0.545v-1.332l0.424-0.606l6.782,0.061l0.424,0.424v1.575l-15.018,15.26h-1.877l-0.605-0.605l-0.015-14.253l-0.613-0.015
+		l-0.461-0.447v-1.635l0.424-0.424l6.843,0.121l0.545,0.605V120.839z"/>
+</g>
+</svg>

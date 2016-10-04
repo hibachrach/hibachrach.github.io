@@ -1,0 +1,12 @@
+{
+  "name": "jquery.transit.min",
+  "_cacheHeaders": {
+    "Last-Modified": "Wed, 16 Jul 2014 23:39:34 GMT",
+    "Content-Type": "application/javascript; charset=utf-8"
+  },
+  "main": "index.js",
+  "_source": "http://ricostacruz.com/jquery.transit/jquery.transit.min.js",
+  "_target": "*",
+  "_originalSource": "http://ricostacruz.com/jquery.transit/jquery.transit.min.js",
+  "_direct": true
+}

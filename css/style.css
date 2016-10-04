@@ -1,0 +1,201 @@
+* {
+  font-family: "Oxygen", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #4E4E4E;
+  padding: 0px;
+  margin: 0px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0; }
+
+body {
+  position: relative;
+  text-align: center;
+  background: white;
+  min-height: 500px;
+  margin: 2em auto;
+  width: 90%;
+  max-width: 1300px;
+  background: url(../images/flower_large.png) top center no-repeat;
+  background-size: 1000px;
+  background-position: center -500px; }
+
+#content {
+  text-align: center; }
+
+h1 {
+  color: white;
+  font-size: 60px;
+  display: inline-block;
+  height: 500px;
+  text-shadow: 0px 0px 24px rgba(0, 0, 0, 0.31); }
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 1em; }
+
+#tagline {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #tagline > * {
+    font-family: "Oswald", sans-serif;
+    display: inline; }
+  #tagline .heart {
+    margin-bottom: -3px; }
+  #tagline .box {
+    border: 4px solid #4E4E4E;
+    height: 1.8em;
+    margin-left: .3em;
+    overflow: hidden; }
+  #tagline #vertList {
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    margin-top: -.18em; }
+    #tagline #vertList li {
+      font-family: "Oswald", sans-serif;
+      margin: .36em .25em 0; }
+
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif; }
+
+.makeFlowerLink {
+  text-decoration: none;
+  position: absolute;
+  display: flex;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 300px;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  opacity: .70;
+  background: white;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.31);
+  border-radius: 10em; }
+  .makeFlowerLink:hover {
+    opacity: 1; }
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.blurb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0 1.1em 2em; }
+  @media screen and (max-width: 669px) {
+    .blurb {
+      text-align: center; } }
+  .blurb h2, .blurb h3 {
+    text-align: center; }
+  .blurb h2 {
+    margin-bottom: .5em; }
+  .blurb > * {
+    margin-top: 1em; }
+  .blurb a {
+    display: inline;
+    text-decoration: none;
+    border-bottom: 1px solid #4E4E4E;
+    background-color: #EEEEEE; }
+    .blurb a:hover {
+      background-color: #DDDDDD; }
+  .blurb p {
+    display: block;
+    max-width: 20em; }
+    .blurb p.statement {
+      text-align: center;
+      width: 90%;
+      max-width: 30em; }
+  .blurb ul {
+    font-size: 20px;
+    min-width: 10em; }
+    .blurb ul li {
+      margin-bottom: 1em; }
+  .blurb#knowledge {
+    text-align: left; }
+
+.circleImage {
+  border-radius: 50%;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.31);
+  margin-left: 1em;
+  margin-right: 1em; }
+
+.blurb.reversed_blurb {
+  flex-direction: row-reverse;
+  text-align: left; }
+  @media screen and (max-width: 669px) {
+    .blurb.reversed_blurb {
+      text-align: center; } }
+
+ul.alteredBullets {
+  margin-left: 1.7em; }
+  ul.alteredBullets li {
+    list-style: none;
+    padding: 0 1.7em;
+    margin: 0 -1.7em;
+    text-align: left; }
+    ul.alteredBullets li.bullet {
+      background: no-repeat url(../images/bullet.svg) left center; }
+    ul.alteredBullets li.location {
+      background: no-repeat url(../images/map-marker.svg) left center; }
+    ul.alteredBullets li.globe {
+      background: no-repeat url(../images/earth.svg) left center; }
+    ul.alteredBullets li.vim {
+      background: no-repeat url(../images/vim.svg) left center; }
+    ul.alteredBullets li.school {
+      background: no-repeat url(../images/school.svg) left center; }
+    ul.alteredBullets li.leviCevita {
+      background: no-repeat url(../images/levi_cevita.svg) left center; }
+
+#languageList {
+  margin-top: 1em;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  max-width: 20em;
+  flex-wrap: wrap; }
+  #languageList li {
+    background-color: rgba(0, 0, 0, 0.07);
+    margin: .2em;
+    padding: .2em;
+    line-height: 1; }
+
+#social li {
+  text-indent: -100000px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: no-repeat url(../images/levi_cevita.svg) left center;
+  background-size: 48px;
+  margin: .75em;
+  margin-top: 0; }
+  #social li.facebook {
+    background-image: url(../images/facebook-box.svg); }
+  #social li.twitter {
+    background-image: url(../images/twitter.svg); }
+  #social li.email {
+    background-image: url(../images/email.svg); }
+  #social li.github {
+    background-image: url(../images/github-circle.svg); }
+  #social li.behance {
+    background-image: url(../images/behance.svg); }
+
+footer {
+  max-width: 26em;
+  border-top: 1px solid #4E4E4E;
+  padding-top: 1em;
+  margin: 1em auto 0;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
