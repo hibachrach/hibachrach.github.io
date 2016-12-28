@@ -6,9 +6,21 @@
 </description>
     <link>harrisonbachrach.com/psyo/</link>
     <atom:link href="harrisonbachrach.com/psyo/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Oct 2016 18:38:06 -0700</pubDate>
-    <lastBuildDate>Sat, 01 Oct 2016 18:38:06 -0700</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Wed, 28 Dec 2016 03:10:58 -0800</pubDate>
+    <lastBuildDate>Wed, 28 Dec 2016 03:10:58 -0800</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>blanket</title>
+        <description>&lt;p&gt;&lt;a href=&quot;comic_images/015_blanket.png&quot;&gt;&lt;img src=&quot;comic_images/015_blanket.png&quot; alt=&quot;blanket&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 28 Dec 2016 03:06:13 -0800</pubDate>
+        <link>harrisonbachrach.com/psyo/blanket.html</link>
+        <guid isPermaLink="true">harrisonbachrach.com/psyo/blanket.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>mornings</title>
@@ -116,18 +128,6 @@
         <pubDate>Mon, 20 Jun 2016 21:16:00 -0700</pubDate>
         <link>harrisonbachrach.com/psyo/door.html</link>
         <guid isPermaLink="true">harrisonbachrach.com/psyo/door.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>pit</title>
-        <description>&lt;p&gt;&lt;a href=&quot;comic_images/005_pit.png&quot;&gt;&lt;img src=&quot;comic_images/005_pit.png&quot; alt=&quot;pit&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 11 Jun 2016 20:13:00 -0700</pubDate>
-        <link>harrisonbachrach.com/psyo/pit.html</link>
-        <guid isPermaLink="true">harrisonbachrach.com/psyo/pit.html</guid>
         
         
       </item>
