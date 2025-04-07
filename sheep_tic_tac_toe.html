@@ -131,8 +131,8 @@
       }
       goodMove() {
         let {moves} = this.minimax();
-        // Pick a random move when there are choices:
-        return moves[Math.floor(Math.random() * moves.length)];
+        // Always pick first good move to keep things deterministic
+        return moves[0];
       }
     }
 
